@@ -13,8 +13,8 @@
                                     <div class="thumbnail">
                                         <img src="https://ik.imagekit.io/kesatriakeyboard/erctour/tr:w-270,h-270/{{ $car->image }}" alt="" class="img-responsive" />
                                         <div class="caption">
-                                            <h4>{{ $car->name }}</h4><p>Malang</p>
-                                            <p>Tahun: <strong>2014</strong></p>
+                                            <h4>{{ $car->name }}</h4>
+                                            <p>Malang / Batu</p>
                                             <p>Driver: <strong>TERMASUK</strong></p>
                                             <p>BBM: <strong>TIDAK TERMASUK</strong></p>
                                             <p>Paket: <strong>1 HARI</strong></p>

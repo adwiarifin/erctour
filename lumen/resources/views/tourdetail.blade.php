@@ -19,9 +19,11 @@
                     </div>
 
                     <div class="well">
-                        <p>Paket tour ini disediakan dan dioperasikan oleh</p>
-                        <p><a href="#">ERC Tour</a></p>
-                        <p>Jl. Untung Suropati Selatan No. 6 Malang, East Java, Indonesia</p>
+                        <p>
+                            Tour ini disediakan oleh<br/>
+                            <a href="#"><strong>ERC TOUR</strong></a><br/>
+                            Jl. Untung Suropati Selatan No. 6 Malang, East Java, Indonesia<br/>
+                        </p>
                         <p>
                             <a href="tel:+62341341944" class="btn btn-primary"><i class="fa fa-phone" aria-hidden="true"></i> Call 0341 341944</a> 
                             <a href="tel:+6281233930143" class="btn btn-primary"><i class="fa fa-phone" aria-hidden="true"></i> Call 081233930143</a>
