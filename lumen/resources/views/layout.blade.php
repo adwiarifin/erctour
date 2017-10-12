@@ -10,11 +10,11 @@
 
     @include('portfolio')
 
+    @include('randomcar')
+
     @include('services')
 
     @include('testimonials')
-
-    @include('randomcar')
 
     @include('about')
 

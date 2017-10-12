@@ -59,7 +59,7 @@
 }
 
 .navbar-brand {
-    padding: 5px 15px;
+    padding: 25px 15px;
 }
 
 .navbar-nav {
@@ -160,9 +160,10 @@
 p {
     /*color: #b9b9b9;*/
     color: #444444;
-    font-size: 14px;
+    font-size: 1em;
     font-family: 'Open Sans', sans-serif;
-    line-height: 28px;
+    text-align: justify;
+    line-height: 1.5em;
     margin-bottom: 10px;
 }
 
@@ -518,8 +519,8 @@ ul.filter li a.active {
 
 /* the icon with pseudo class for icon font */
 .cbp-ig-icon {
-    padding: 50px 0 0 0;
-    height: 150px;
+    /*-padding: 50px 0 0 0;*/
+    height: 5em;
     display: block;
     -webkit-transition: -webkit-transform 0.2s;
     transition: -moz-transform 0.2s;
@@ -672,7 +673,7 @@ ul.filter li a.active {
 /*-------------------------------------------------*/
 
 .bxslider p {
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'georgia';
     font-style: italic;
     margin-bottom: 20px;
@@ -811,7 +812,7 @@ ul.social li a:hover {
 }
 
 .who-we-are p {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .progres-bar {
@@ -1618,4 +1619,10 @@ ul.social-icons li a.google {
 
 .p15 {
     padding: 15px;
+}
+
+.center-block {
+    float: none;
+    display: block;
+    margin: 20px auto;
 }

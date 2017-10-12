@@ -10,9 +10,13 @@
                             <div class="row">
                                 @foreach($cars as $car)
                                 <div class="col-md-3">
-                                    <div class="thumbnail">
-                                        <img src="https://ik.imagekit.io/kesatriakeyboard/erctour/tr:w-270,h-270/{{ $car->image }}" alt="" class="img-responsive" />
-                                        <div class="caption">
+                                    <!--div class="thumbnail"-->
+                                        <div class="center-block">
+                                        <a href="http://rental-mobil-malang.com" target="_blank">
+                                            <img src="https://ik.imagekit.io/kesatriakeyboard/erctour/tr:w-330,h-330/{{ $car->image }}" alt="" class="img-responsive" />
+                                        </a>
+                                        </div>
+                                        <!--div class="caption">
                                             <h4>{{ $car->name }}</h4>
                                             <p>Malang / Batu</p>
                                             <p>Driver: <strong>TERMASUK</strong></p>
@@ -21,8 +25,8 @@
                                             <p class="text-danger"><strong>Rp. {{ number_format($car->price, 0, '', '.') }}</strong></p>
                                             <p><a href="#">ERC Trans</p>
                                             <p><a class="btn btn-primary" href="#">Lihat</a></p>
-                                        </div>
-                                    </div>
+                                        </div-->
+                                    <!--/div-->
                                 </div>
                                 @endforeach
                             </div>
