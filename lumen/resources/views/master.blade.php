@@ -2,7 +2,7 @@
 
 <html lang="en" class="no-js">
 <head>
-    <title><?php echo isset($title) ? $title : 'ERC Tour - Spesialis Paket Wisata Malang, Batu, Bromo' ?></title>
+    <title><?php echo isset($title) ? $title : 'Rais Wisata - Spesialis Paket Wisata Malang, Batu, Bromo' ?></title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
