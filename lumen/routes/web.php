@@ -31,7 +31,7 @@ $app->get('/', function () use ($app) {
 $app->get('/tour/{slug}', function($slug) use($app){
     $tour = Tour::where('slug', '=', $slug)->first();
     $other = Tour::where('slug', '<>', $slug)->inRandomOrder()->limit(4)->get();
-    $title = $tour->title . ' - ERC Tour - Spesialis Paket Wisata Malang, Batu, Bromo';
+    $title = $tour->title . ' - Rais Wisata - Spesialis Paket Wisata Malang, Batu, Bromo';
     $page = 'tourdetail';
     return view('alternative', compact('tour', 'other', 'title', 'page'));
 });
