@@ -21,11 +21,12 @@ $app->get('/', function () use ($app) {
     $cars = Car::inRandomOrder()->limit(4)->get();
 
     // view
-    return view('layout', array(
+    return view('home', compact('tours'));
+    /*return view('layout', array(
         'tags' => $tags,
         'tours' => $tours,
         'cars' => $cars
-    ));
+    ));*/
 });
 
 $app->get('/tour/{slug}', function($slug) use($app){
@@ -43,4 +44,22 @@ $app->get('/rentcar', function() use($app){
         'page' => 'rentcar',
         'cars' => $cars
     ));
+});
+
+///////// new //////////////
+
+$app->get('/paket', function() use($app){
+    return view('rentcar');
+});
+
+$app->get('/sewamobil', function() use($app){
+    return view('rentcar');
+});
+
+$app->get('/galeri', function() use($app){
+    return view('gallery');
+});
+
+$app->get('/syarat', function() use($app){
+    return view('requirement');
 });
